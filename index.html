@@ -1,0 +1,201 @@
+<html>
+<head>
+	<title>Agoritsa Polyzou's Homepage</title>
+	<!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous"> -->
+<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">-->
+	<style>
+
+		body {
+			color: #777;
+		}
+
+		.pure-img-responsive {
+			max-width: 100%;
+			height: auto;
+		}
+
+		a {
+		  text-decoration: none;
+		}
+		a:hover {
+		  text-decoration: underline;
+		}
+
+    #patienttext {
+        width: 100%;
+    }
+
+		/*
+		This is the parent `<div>` that contains the menu and the content area.
+		*/
+		#layout {
+			position: relative;
+			left: 0;
+			padding-left: 0;
+		}
+			#layout.active #menu {
+				left: 150px;
+				width: 150px;
+			}
+
+			#layout.active .menu-link {
+				left: 150px;
+			}
+		/*
+		The content `<div>` is where all your content goes.
+		*/
+		.content {
+			margin: 0 auto;
+			padding: 0 2em;
+			max-width: 800px;
+			margin-bottom: 50px;
+			line-height: 1.6em;
+		}
+
+		.header {
+			 margin: 0;
+			 color: #333;
+			 text-align: center;
+			 padding: 2.5em 2em 0;
+			 border-bottom: 1px solid #eee;
+		 }
+			.header h1 {
+				margin: 0.2em 0;
+				font-size: 3em;
+				font-weight: 300;
+			}
+			 .header h2 {
+				font-weight: 300;
+				color: #ccc;
+				padding: 0;
+				margin-top: 0;
+			}
+
+		.content-subhead {
+			margin: 50px 0 20px 0;
+			font-weight: 300;
+			color: #888;
+		}
+		div.sidebar {
+		  width: 220px;
+		  float: right;
+		  padding: 10px 0px 0px 30px;
+		  margin-right: 75px;
+		}
+
+		.sidebaritem {
+		  padding: 7px;
+		  margin-bottom: 20px;
+		  text-align: left;
+		}
+		#photo img {
+		  width: 200px;
+		  border: solid thin #ccc;
+		}
+
+		.socialmediabadge {
+		  width: 50px;
+		}
+
+		blockquote {
+		/*border-left: solid #dddddd;*/
+			margin: 0px;
+			padding: 0px;
+			font-size: small;
+		}
+
+		.short, .long, .workshop, .journal, .book, .demo, .data {
+		  display: inline;
+		  padding: .2em .6em .3em;
+		  font-size: 85%;
+		  line-height: 1;
+		  color: white;
+		  text-align: center;
+		  white-space: nowrap;
+		  vertical-align: baseline;
+		  border-radius: .25em;
+		  margin-left: .5em;
+		  opacity: 0.85;
+		}
+
+		.short { background-color: #f0ad4e; }
+		.long { background-color: #5cb85c;}
+		.journal { background-color: #4582ec;}
+		.workshop, .demo { background-color: #f0ad4e; }
+		.book { background-color: red; }
+	</style>
+
+</head>
+<body>
+
+	<div id="main">
+			<div class="header">
+				<h1>Agoritsa Polyzou</h1>
+				<h2>Assistant Professor, FIU</h2>
+			</div>
+
+			 <div id="mainin">
+                 <div class="sidebar">
+  	                <div class="sidebaritem" id="photo">
+                      <img src="images/apolyzou.png" alt="Agoritsa Polyzou"><br>
+                    </div>
+
+                    <div class="sidebaritem" style="text-align: center">
+                      <a href="https://www.cis.fiu.edu/faculty-staff/agoritsa-polyzou/"><img class="socialmediabadge" src="images/KFSCIS-vrt-COLOR.png" alt="school webpage"></a>
+<!--                      <a href="http://twitter.com/bevan_koopman"><img class="socialmediabadge" src="img/twitter2.png" alt="Twitter"></a>-->
+<!--                      <a href="http://au.linkedin.com/in/bevankoopman"><img class="socialmediabadge"  src="img/linkedin2.png" alt="LinkedIn"></a>-->
+<!--                      <a href="http://github.com/bevankoopman"><img class="socialmediabadge"  src="img/github2.png" alt="Github"></a>-->
+                    </div>
+
+                 </div>
+
+			<div class="content">
+				<h2 class="content-subhead">About Me</h2>
+                <p>
+                    Hello! I am an Assistant Professor of Computer Science in the Knight Foundation School of Computing and
+                    Information Sciences at Florida International University (FIU). Before joining FIU, I was a postdoctoral
+                    Fritz family fellow in the Massive Data Institute (MDI) of McCourt School of Public Policy at Georgetown
+                    University. I received my Ph.D. in Computer Science and Engineering from the University of Minnesota
+                    in 2020, and my Bachelor in Computer Engineering and Informatics from the University of Patras, Greece.
+                </p>
+                <p>
+                    My research interests include data mining, recommender systems, the application of machine learning
+                    techniques within educational contexts, and the fairness concerns that arise from their use. My goal
+                    is to help students succeed using data and machine learning models. At the same time, I am interested
+                    in ensuring that such models will be fair and responsible.
+                </p>
+				<h2 class="content-subhead">Contact</h2>
+				<p>
+                    Email: <a href="mailto:apolyzou@fiu.edu"  target="_top">apolyzou@fiu.edu</a><br>
+                    <br>
+                    Knight Foundation School of Computing and Information Sciences<br>
+                    11200 SW 8th Street, CASE 343<br>
+                    Miami, FL 33199<br>
+                </p>
+
+				<h2 class="content-subhead">Publications</h2>
+				<div class="scholar">
+                  <a href="https://scholar.google.com/citations?user=ydxk7hoAAAAJ">Google Scholar Profile</a>
+                </div>
+
+                <h2 class="content-subhead">Teaching</h2>
+				<div class="teaching">
+                  <ul>
+                      <li>CAP 5771 - Principles of Data Mining (graduate level)</li>
+                      <li>CAP 4770 - Introduction to Data Mining (undergraduate level)</li>
+                  </ul>
+                </div>
+
+<!--		<h3>2023</h3>-->
+<!--				<ul class=publications>-->
+<!--      <li><strong>B. Koopman</strong>, A. Mourad, H. Li, A. v. d. Vegt, S. Zhuang, S. Gibson, Y. Dang, D. Lawrence, and G. Zuccon. <a href="papers/ijdl2022-AgAsk_end_to_end.pdf">Agask: an agent to help answer farmer's questions from scientific documents.</a> International Journal on Digital Libraries, June 2023. <span class="journal">Journal</span></li>-->
+<!--  </ul>-->
+
+
+
+			</div>
+		</div>
+    </div>
+
+</body>
+</html>
